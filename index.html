@@ -5,28 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@700&display=swap" rel="stylesheet">
     <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <section>
-            <div id="0" class="box">0</div>
-            <div id="1" class="box">1</div>
-            <div id="2" class="box">3</div>
-            <div id="3" class="box">4</div>
-            <div id="4" class="box">5</div>
-            <div id="5" class="box">6</div>
-            <div id="6" class="box">7</div>
-            <div id="7" class="box">8</div>
-            <div id="8" class="box">9</div>
-        </section>
-        <section class="btn-container">
-            <button id="btn">Click</button>
-        </section>
 
+    <div class="container">
+        <h1 id="playerText">Tic-Tac-Toe</h1>
+        <section class="board">
+            <div id="0" class="box"></div>
+            <div id="1" class="box"></div>
+            <div id="2" class="box"></div>
+            <div id="3" class="box"></div>
+            <div id="4" class="box"></div>
+            <div id="5" class="box"></div>
+            <div id="6" class="box"></div>
+            <div id="7" class="box"></div>
+            <div id="8" class="box"></div>
+        </section>
+        <button id="btn">Reset</button>
     </div>
 </body>
+
+<script type="text/javascript" src="game.js"></script>
 
 </html>
