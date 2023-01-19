@@ -95,7 +95,7 @@ function reset(){
     })
 
     //Reset the game from a win notification to the original title
-    playerText = 'TIC-TAC-TOE'
+    playerText.innerHTML = 'TIC-TAC-TOE'
 
     //Reset the starting player to X
     currentPlayer = X_TEXT
