@@ -40,7 +40,7 @@ function fillBox(event){
     
     //-----SET UP A WIN NOTIFICATION-----
     if(playerWins() !==false){
-    playerText = `${currentPlayer} wins!`
+    playerText.innerHTML = `${currentPlayer} wins!`
     let winning_blocks = playerWins()
     //if a player wins, check the array combo that won and change the background color
     winning_blocks.map(box => boxes[box].style.backgroundColor=winnerIndicator)
