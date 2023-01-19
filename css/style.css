@@ -38,8 +38,7 @@ h1{
 .board {
   width: 450px;
   display: flex;
-  flex-wrap: wrap;                         
-  margin-top: 20px;
+  flex-wrap: wrap;
   margin-bottom: 10px;
   background: #83C5BE;
 }

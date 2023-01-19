@@ -1,6 +1,4 @@
 //-----SET UP STARTING VARIABLES-----
-
-
 //This will let us change the title text to display a win notification
 let playerText = document.getElementById('playerText')
 
